@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structuring Given Table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 20%;
+        margin: 20px auto;
+      }
+      td {
+        border: 1px solid #000000;
+        padding: 8px;
+        text-align: center;
+      }
+      .row td{
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+        <caption>Structuring Given Table Using colspan</caption>
+      <tr>
+        <td colspan="3">1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr class="row">
+        <td colspan="2">5</td>
+        <td colspan="1">6</td>
+      </tr>
+    </table>
+  </body>
+</html>
